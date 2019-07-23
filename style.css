@@ -8,6 +8,7 @@ body
     color:#555d66;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI";
     font-size: 14px;
+    padding-top:20px;
  }
 .centre
 {
@@ -47,6 +48,13 @@ img {
     width:100%;
     border: solid 1px #ddd;
     background: #fbfbfb;
+    
+    --in-content-border-active: var(--blue-50);
+}
+input:focus{
+    border:1px solid #357EC7;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    
 }
 input[type=checkbox]
 {
